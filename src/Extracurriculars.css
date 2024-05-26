@@ -1,0 +1,22 @@
+
+.extracurriculars {
+    padding: 2rem;
+    background: white; /* Example background color */
+  }
+  
+  .extracurriculars h2 {
+    color: #34495e;
+  }
+  
+  .extracurriculars ul {
+    list-style: none;
+    padding: 0;
+    border-bottom: double 3px #3498db; /* Add double border */
+    margin-bottom: 2rem; /* Add some margin for spacing */
+  }
+  
+  .extracurriculars li {
+    margin-bottom: 0.5rem;
+    
+  }
+  

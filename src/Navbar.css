@@ -1,0 +1,28 @@
+
+nav {
+  position: sticky;
+  top: 0;
+  background: #3498db;
+  z-index: 1000;
+  
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 1rem;
+  display: block;
+}
+
+nav a:hover {
+  background-color: #2980b9;
+  border-radius: 4px;
+}

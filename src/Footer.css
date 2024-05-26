@@ -1,0 +1,24 @@
+footer {
+    background-color: #3498db; /* Example color */
+    color: white;
+    text-align: center;
+    position:relative;
+    width: 100%;
+    justify-content: center;
+    height: 50px; /* Set a fixed height if needed */
+    line-height:1.5 rem;
+  }
+  footer p {
+    margin: 0; /* Remove default margin */
+  }
+  
+  footer a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 0.5rem; /* Add some margin for spacing between links */
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  

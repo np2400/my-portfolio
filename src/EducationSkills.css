@@ -1,0 +1,22 @@
+
+.education-skills {
+    padding: 2rem;
+    background: white; /* Example background color */
+  }
+  
+  .education-skills h2 {
+    color: #2c3e50;
+  }
+  
+  .education-skills ul {
+    list-style: none;
+    padding: 0;
+    border-bottom: double 3px #3498db; /* Add double border */
+    margin-bottom: 2rem; /* Add some margin for spacing */
+  }
+  
+  .education-skills li {
+    margin-bottom: 0.5rem;
+    
+  }
+  

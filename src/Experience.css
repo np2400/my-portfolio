@@ -1,0 +1,14 @@
+.experience {
+  padding: 2rem;
+  background: white;
+  margin: 1rem 0;
+  border-radius: 8px;
+  text-align: left-center; /* Center the text */
+}
+
+.experience h3, .experience p {
+  color: #2c3e50; /* Consistent text color */
+  margin-bottom: 0.5rem;
+  border-bottom: double 3px #3498db; /* Add double border */
+  margin-bottom: 2rem; /* Add some margin for spacing */
+}

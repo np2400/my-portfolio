@@ -13,7 +13,7 @@ const EducationSkills = () => {
       </ul>
       <h2>Skills</h2>
       <ul>
-        <li>Programming Languages: JavaScript, Python, Java</li>
+        <li>Programming Languages: JavaScript, Python, Java, C++ </li>
         <li>Frameworks/Libraries: React, Node.js, Express</li>
         <li>Tools: Git, Docker, Jenkins</li>
       </ul>

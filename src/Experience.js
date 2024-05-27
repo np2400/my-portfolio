@@ -7,6 +7,7 @@ const Experience = () => {
     
         <h1>Work experience</h1>
         <p>Administrative Assistant - Fragomen (2021-2022)</p>
+        <l>Helped Paralegals and Attorneys with case files and preparing employment work permit</l>
     </section>
   );
 };

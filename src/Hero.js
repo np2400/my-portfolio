@@ -3,18 +3,23 @@ import './Hero.css';
 
 const Hero = () => {
   useEffect(() => {
-    fetch('/particlesjs-config.json')
-      .then(response => response.json())
-      .then(config => {
+    const loadParticlesConfig = async () => {
+      try {
+        const response = await fetch(`${process.env.PUBLIC_URL}/particlesjs-config.json`);
+        const config = await response.json();
         window.particlesJS('particles-js', config);
-      })
-      .catch(error => console.error('Error loading particles.js config:', error));
+      } catch (error) {
+        console.error('Error loading particles.js config:', error);
+      }
+    };
+
+    loadParticlesConfig();
   }, []);
 
   return (
     <section className="hero">
       <div id="particles-js"></div>
-      <img src="profile-photo.jpg" alt="Profile" className="profile-photo" />
+      <img src={`${process.env.PUBLIC_URL}/profile-photo.jpg`} alt="Profile" className="profile-photo" />
       <h1>Neel Parekh</h1>
       <p>Software Developer with a passion for creating efficient and scalable solutions.</p>
     </section>

@@ -22,6 +22,7 @@ function App() {
       </div>
       <div id="education">
         <EducationSkills />
+        
       </div>
       <div id="experience">
         <Experience />

@@ -6,7 +6,7 @@
   text-align: center;
   border-radius: 1px;
   margin: 0;
-  overflow: hidden; /* Add this to ensure particles are confined to the hero section */
+  overflow: hidden; 
 }
 
 #particles-js {
@@ -19,12 +19,12 @@
 }
 
 .profile-photo {
-  position: relative; /* Add this to ensure profile photo is above particles */
+  position: relative; 
   width: 150px;
   height: auto;
   border-radius: 50%;
   transition: transform 0.4s ease-in-out, border-radius 1s ease;
-  z-index: 1; /* Add this to ensure profile photo is above particles */
+  z-index: 1; 
 }
 
 .profile-photo:hover {
@@ -33,6 +33,6 @@
 }
 
 h1, p {
-  position: relative; /* Add this to ensure text is above particles */
-  z-index: 1; /* Add this to ensure text is above particles */
+  position: relative; 
+  z-index: 1; 
 }

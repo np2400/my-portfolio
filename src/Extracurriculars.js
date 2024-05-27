@@ -1,6 +1,6 @@
 
 import React from 'react';
-import './Extracurriculars.css'; // Add your CSS styles here
+import './Extracurriculars.css'; 
 
 const Extracurriculars = () => {
   return (

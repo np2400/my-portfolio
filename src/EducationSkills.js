@@ -7,8 +7,8 @@ const EducationSkills = () => {
     <section className="education-skills">
       <h2>Education</h2>
       <ul>
-        <li>Bachelor of Computer Science with Business Applications</li>
-        <li>Major: Computer Science, Minor: Business</li>
+        <li>University of california, Riverside - Bachelor of Computer Science with Business Applications</li>
+        <li>Major: Computer Science, Minor: Business App</li>
         <li>Relevant Coursework: Data Structures, Algorithms, Web Development</li>
       </ul>
       <h2>Skills</h2>

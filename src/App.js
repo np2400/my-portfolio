@@ -22,7 +22,7 @@ function App() {
           I am profiecinet in Javascript, C++ and Python.  I am passionate about leveraging my skills to solve real-world problems and contribute to innovative projects.
           </p>
           <p>
-            <a href="/Neels Resume.pdf" target="_blank" rel="noopener noreferrer">
+            <a href={`${process.env.PUBLIC_URL}/Neels Resume.pdf`} target="_blank" rel="noopener noreferrer">
               View my resume
             </a>
           </p>

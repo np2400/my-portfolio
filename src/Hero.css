@@ -1,12 +1,12 @@
 .hero {
   position: relative;
-  background: teal;
+  background: royalblue;
   color: white;
   padding: 2rem;
   text-align: center;
   border-radius: 1px;
   margin: 0;
-  overflow: hidden; /* Add this to ensure particles are confined to the hero section */
+  overflow: hidden; 
 }
 
 #particles-js {

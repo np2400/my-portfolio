@@ -1,6 +1,6 @@
 
 import React from 'react';
-import './EducationSkills.css'; // Add your CSS styles here
+import './EducationSkills.css'; 
 
 const EducationSkills = () => {
   return (

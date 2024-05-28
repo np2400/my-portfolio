@@ -11,8 +11,8 @@ html, body {
 .about-section {
   padding: 2rem;
   background: white;
-  border-bottom: double 3px #3498db; /* Add double border */
-  margin-bottom: 0.5rem; /* Add some margin for spacing */
+  border-bottom: double 3px #3498db; 
+  margin-bottom: 0.5rem; 
 }
 
 .about-section h2 {

@@ -21,7 +21,7 @@ const Hero = () => {
       <div id="particles-js"></div>
       <img src={`${process.env.PUBLIC_URL}/profile-photo.jpg`} alt="Profile" className="profile-photo" />
       <h1>Neel Parekh</h1>
-      <p>Senior at University of California ,Riverside pursuing Computer Science with Business Applications.</p>
+      <p>Software Developer with a passion for creating efficient and scalable solutions.</p>
     </section>
   );
 };
